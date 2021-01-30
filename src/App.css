@@ -23,9 +23,36 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+body{
+  background-color: white;
+}
 
 .App-link {
   color: #61dafb;
+}
+
+.app_form{
+  padding: 20px;
+  position: fixed;
+  bottom:0;
+  z-index:1;
+  background-color: dodgerblue;
+  width: 95%;
+  margin: 20px; 
+}
+
+.app_formControl{
+  display: flex !important;
+  flex-direction: row !important;
+}
+
+.app_input{
+  flex:1;
+  color:white !important;
+}
+
+.app_iconButton{
+  flex:0;
 }
 
 @keyframes App-logo-spin {
